@@ -39,9 +39,7 @@ assignment.sumOfNumbers = sumOfNumbers;
 //       evenNumbers.push(number)
 //     }
 //   })
-//   console.log(evenNumbers)
-//   console.log(evenNumbers.length)
-//   return arrayOfNumbers.length;
+//   return evenNumbers.length
 // }
 // assignment.countEvenNumbers = countEvenNumbers;
 
@@ -65,10 +63,8 @@ function celsiusToFahrenheit(arrayOfNumbers) {
   arrayOfNumbers.forEach(value => {
     let conversion = ((value * 1.8) + 32)
     convertedArray.push(Math.trunc(conversion))
-    return convertedArray
   })
-  console.log(convertedArray)
-  return arrayOfNumbers;
+  return convertedArray
 }
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 

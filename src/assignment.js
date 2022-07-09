@@ -19,6 +19,7 @@ function sumOfNumbers(arrayOfNumbers) {
       sum += arrayOfNumbers[i]
   }
   return sum
+  return arrayOfNumbers.length;
 }
 assignment.sumOfNumbers = sumOfNumbers;
 
@@ -67,6 +68,7 @@ function celsiusToFahrenheit(arrayOfNumbers) {
     return convertedArray
   })
   console.log(convertedArray)
+  return arrayOfNumbers;
 }
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
